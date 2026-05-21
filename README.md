@@ -19,7 +19,7 @@ Built for deployment behind Cloudflare Tunnel via Portainer stack.
 ## Image
 
 ```
-ghcr.io/USERNAME/jupyterlab-pg:latest
+ghcr.io/allen5218/jupyterlab-pg:latest
 ```
 
 Tags produced by CI:
