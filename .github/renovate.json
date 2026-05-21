@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "schedule": ["after 2am every weekday"],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["quay.io/jupyter/scipy-notebook"],
+      "versioning": "loose",
+      "automerge": false,
+      "groupName": "jupyter base image"
+    }
+  ]
+}
