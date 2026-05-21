@@ -96,6 +96,4 @@ Dependabot watches the base image weekly and opens PRs when a new
 - Kernels live in `/opt/conda/share/jupyter/kernels`; install extra ones via
   `mamba install` or `pip install` then `python -m ipykernel install --user`.
 
-## License
 
-Personal use. Base image is BSD-3-Clause.
