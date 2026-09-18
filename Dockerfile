@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/scipy-notebook:2026-06-15@sha256:635835fcda6bfdb342b3ac7042e0a38a6b7764857d4b40406d2b89eb07cd19e6
+FROM quay.io/jupyter/scipy-notebook:2026-09-18@sha256:5468d3aa14437e53bfe2fe29e3b5dd241c67052adba82f9ae5f84423b1056229
 
 USER root
 RUN apt-get update && \
